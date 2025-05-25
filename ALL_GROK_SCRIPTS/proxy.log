@@ -1,0 +1,27 @@
+2025-05-25 01:42:08,967 - __main__ - INFO - fastapi is already installed.
+2025-05-25 01:42:09,472 - __main__ - INFO - pydantic is already installed.
+2025-05-25 01:42:09,973 - __main__ - INFO - uvicorn is already installed.
+2025-05-25 01:42:10,477 - __main__ - INFO - python-dotenv is already installed.
+2025-05-25 01:42:10,982 - __main__ - INFO - playwright is already installed.
+2025-05-25 01:42:11,435 - __main__ - INFO - Playwright browsers installed successfully.
+2025-05-25 01:42:11,900 - __main__ - INFO - Starting Grok (curl subprocess, .env-style cookies) API server...
+2025-05-25 01:42:11,901 - __main__ - ERROR - CRITICAL: One or more essential cookie values are missing.
+2025-05-25 01:42:11,901 - __main__ - ERROR - CRITICAL COOKIE ERROR: Cookie string is empty. Check .env or defaults.
+2025-05-25 01:42:24,639 - __main__ - INFO - fastapi is already installed.
+2025-05-25 01:42:25,156 - __main__ - INFO - pydantic is already installed.
+2025-05-25 01:42:25,661 - __main__ - INFO - uvicorn is already installed.
+2025-05-25 01:42:26,162 - __main__ - INFO - python-dotenv is already installed.
+2025-05-25 01:42:26,666 - __main__ - INFO - playwright is already installed.
+2025-05-25 01:42:27,116 - __main__ - INFO - Playwright browsers installed successfully.
+2025-05-25 01:42:27,553 - __main__ - INFO - Starting Grok (curl subprocess, .env-style cookies) API server...
+2025-05-25 01:42:27,553 - __main__ - ERROR - CRITICAL: One or more essential cookie values are missing.
+2025-05-25 01:42:27,553 - __main__ - ERROR - CRITICAL COOKIE ERROR: Cookie string is empty. Check .env or defaults.
+2025-05-25 01:42:45,703 - __main__ - INFO - fastapi is already installed.
+2025-05-25 01:42:46,200 - __main__ - INFO - pydantic is already installed.
+2025-05-25 01:42:46,697 - __main__ - INFO - uvicorn is already installed.
+2025-05-25 01:42:47,199 - __main__ - INFO - python-dotenv is already installed.
+2025-05-25 01:42:47,698 - __main__ - INFO - playwright is already installed.
+2025-05-25 01:42:48,148 - __main__ - INFO - Playwright browsers installed successfully.
+2025-05-25 01:42:48,583 - __main__ - INFO - Starting Grok (curl subprocess, .env-style cookies) API server...
+2025-05-25 01:42:48,583 - __main__ - ERROR - CRITICAL: One or more essential cookie values are missing.
+2025-05-25 01:42:48,583 - __main__ - ERROR - CRITICAL COOKIE ERROR: Cookie string is empty. Check .env or defaults.

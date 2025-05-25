@@ -1,0 +1,25 @@
+# macOS-specific requirements with Metal Performance Shaders support
+# ==================================================================
+
+# Core Dependencies
+opencv-python>=4.8.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+scipy>=1.7.0
+tqdm>=4.62.0
+PyYAML>=6.0
+
+# Metal Performance Shaders (MPS) Support
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Optional Dependencies for Advanced Features
+transformers>=4.20.0
+open3d>=0.15.0
+scikit-image>=0.18.0
+pillow>=8.3.0
+
+# Development Dependencies (optional)
+# pytest>=6.2.0
+# black>=21.0.0
+# flake8>=3.9.0

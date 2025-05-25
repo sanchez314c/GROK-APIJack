@@ -1,0 +1,39 @@
+# UAP Analysis Pipeline Requirements
+# ==================================
+
+# Core Dependencies
+opencv-python>=4.8.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+scipy>=1.7.0
+tqdm>=4.62.0
+PyYAML>=6.0
+
+# Hardware Acceleration Dependencies
+# ===================================
+
+# For macOS Metal Performance Shaders (MPS)
+# torch>=2.0.0  # Uncomment for MPS support
+
+# For CUDA acceleration (Linux/Windows)
+# torch>=2.0.0+cu118  # Uncomment for CUDA support
+# torchvision>=0.15.0+cu118
+
+# Optional Dependencies (for advanced features)
+# ============================================
+
+# For 3D reconstruction and depth analysis
+# transformers>=4.20.0
+# open3d>=0.15.0
+
+# For enhanced video processing  
+# scikit-image>=0.18.0
+# pillow>=8.3.0
+
+# For GUI file selection (if using enhanced_processor)
+# tkinter (usually included with Python)
+
+# Development and testing
+# pytest>=6.2.0
+# black>=21.0.0
+# flake8>=3.9.0

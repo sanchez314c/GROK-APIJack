@@ -1,0 +1,164 @@
+# UAP Analysis Configuration
+# =========================
+
+# Video Processing Settings
+video:
+  max_frames: null  # null for all frames, or specify number
+  extract_all_frames: true
+  frame_format: "png"
+  
+# Analysis Types
+analysis_types:
+  motion: true
+  luminosity: true
+  spectral: true
+  depth_3d: true
+  em_noise: true
+  geometric: true
+  pulse_detection: true
+  
+  # Advanced Analysis Types
+  atmospheric: true
+  physics: true
+  signature: true
+  ml_classification: true
+  stereo_vision: true
+  environmental: true
+  database_matching: true
+  acoustic: true
+  trajectory_prediction: true
+  multispectral: true
+
+# Output Settings
+output:
+  create_enhanced_video: true
+  create_stabilized_video: true
+  create_motion_tracking: true
+  create_em_simulation: true
+  save_frame_data: true
+  create_summary_report: true
+  
+# Quality Settings
+quality:
+  resolution_scale: 1.0  # Scale factor for processing
+  enhancement_strength: 0.7
+  noise_reduction: true
+  clahe_clip_limit: 2.0
+  
+# Detection Parameters
+detection:
+  motion_threshold: 0.5
+  pulse_frequency_range: [0.5, 10.0]  # Hz
+  edge_detection_threshold: [50, 150]
+  optical_flow_params:
+    pyr_scale: 0.5
+    levels: 3
+    winsize: 15
+    iterations: 3
+    poly_n: 5
+    poly_sigma: 1.2
+    
+# 3D Analysis
+depth_analysis:
+  enable_depth_estimation: true
+  depth_model: "Intel/dpt-large"  # MiDaS model
+  create_3d_visualization: true
+  
+# Pulse Analysis
+pulse_analysis:
+  bandpass_filter: true
+  filter_order: 4
+  peak_detection_height: 0.2
+  peak_min_distance_frames: 8
+  
+# Performance & Acceleration
+performance:
+  use_gpu: true
+  parallel_processing: true
+  verbose_output: true
+  progress_bars: true
+  
+# Hardware Acceleration
+acceleration:
+  # Auto-detect best available acceleration (recommended)
+  auto_detect: true
+  
+  # Platform-specific preferences
+  prefer_metal_mps: true      # macOS: Use Metal Performance Shaders
+  prefer_cuda: true           # Linux/Windows: Use CUDA if available  
+  prefer_opencl: true         # Cross-platform: Use OpenCL as fallback
+  
+  # Acceleration for specific operations
+  accelerate_optical_flow: true
+  accelerate_filtering: true
+  accelerate_fft: true
+  accelerate_convolution: true
+  
+  # Memory management
+  gpu_memory_fraction: 0.8    # Use up to 80% of GPU memory
+  cpu_threads: 0              # 0 = auto-detect CPU cores
+
+# Advanced Analysis Configuration
+# ================================
+
+# Environmental Analysis
+environmental:
+  weather_api_key: null       # API key for weather data (optional)
+  atmospheric_analysis: true
+  celestial_correlation: true
+  temporal_patterns: true
+
+# Database Matching
+database:
+  path: "data/phenomena_database.db"
+  similarity_threshold: 0.7
+  auto_update_database: true
+  enable_online_matching: false
+
+# Acoustic Analysis  
+acoustic:
+  sonic_boom_threshold: 0.8
+  enable_audio_analysis: true
+  infer_from_visual: true
+
+# Trajectory Prediction
+trajectory:
+  prediction_horizon: 10      # frames to predict ahead
+  physics_models: ["linear", "parabolic", "orbital", "ballistic"]
+  ml_prediction: true
+
+# Multi-spectral Analysis
+multispectral:
+  enable_thermal_analysis: true
+  enable_ir_analysis: true
+  enable_uv_analysis: true
+  color_temperature_analysis: true
+  blackbody_analysis: true
+
+# Stereo Vision
+stereo_vision:
+  enable_3d_reconstruction: true
+  depth_estimation: true
+  size_estimation: true
+  distance_calculation: true
+
+# Physics Analysis
+physics:
+  gravity_analysis: true
+  energy_analysis: true
+  acceleration_analysis: true
+  aerodynamic_analysis: true
+  
+# Signature Analysis
+signature:
+  em_signature_analysis: true
+  thermal_signature_analysis: true
+  propulsion_signature_analysis: true
+  plasma_signature_analysis: true
+
+# ML Classification
+ml_classification:
+  feature_extraction: true
+  anomaly_detection: true
+  pattern_clustering: true
+  behavioral_analysis: true
